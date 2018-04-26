@@ -1,0 +1,484 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:naplio="http://www.lio.ontario.ca/naplio" xmlns:napm="http://www.geoconnections.org/nap/napMetadataTools/napXsd/napm" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:fme="http://www.safe.com/xml/xmltables">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>ac174203-e72e-45b9-830a-0b80d39a80e1</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language gco:nilReason="missing">
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://nap.geogratis.gc.ca/metadata/register/registerItemClasses-eng.html#IC_95" codeListValue="utf8" />
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+  </gmd:hierarchyLevel>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>North American Profile of ISO 19115 Geographic Information Metadata</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>Government of Ontario(GO)-ITS 72 - Version 2</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:locale>
+    <gmd:PT_Locale id="FR">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="#LanguageCode" codeListValue="fre">French</gmd:LanguageCode>
+      </gmd:languageCode>
+      <gmd:country>
+        <gmd:Country codeList="#Country" codeListValue="CAN">Canada</gmd:Country>
+      </gmd:country>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://nap.geogratis.gc.ca/metadata/register/registerItemClasses-eng.html#IC_95" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>John A Johnson</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Ontario Ministry of Natural Resources and Forestry</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Ecological Land Classification Analyst</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>1 (705) 946 7474</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>1 (705) 946 2030</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>1235 Queen Street East</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Sault Ste. Marie</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Ontario</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>P6A 2E5</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>CA</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>John.A.Johnson@ontario.ca</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:contactInstructions gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>Grid CS = Geographic (Lat, Long); Map Proj = Not Applicable; Horiz. Datum = NAD83; Vert. Datum = Not Applicable</gco:CharacterString>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <naplio:NAPLIO_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Ecological Land Classification (ELC) of Ontario</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Classification écologique des terres</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>ELC</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2003-02-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2003-02-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>The ELC of Ontario was revised by the ELC Working Group in 2000 to better reflect the ELC system originally developed by Angus Hills (1959 and later revisions).  This dataset was revised to take account new information and new technology, while maintaining Hills's original concepts.  For further information on the rationale for the revisions, refer to Ecoregions of Ontario Modifications to Angus Hills Site Regions and Districts, Revisions and Rationale (Crins and Uhlig 2000), or the Ecological Land Classification Primer (Crins 2007). 
+
+In 2002, the spatial data was updated using NRVIS drainage polygon data including islands from Great Lakes, St. Lawrence, and Ottawa River, and more detailed shoreline data.  NTS mapping was also used to delineate the northern, eastern (Quebec border), and western (Manitoba border) boundaries of the province. This packaged dataset is classified into three hierarchical categories: Ecozones, Ecoregions, and Ecodistricts.
+
+Legislated or Legal Authority for Collection: None
+
+Additional Time Period Information: Final dataset was finished in early February 2003, with minor edits to correct mislabels and minor boundary errors.  Several island polygons were missing in Georgian Bay and have been added on June 9, 2005.
+
+To acquire shape files for EcoDistrict, EcoZone and EcoRegion please refer to: 
+
+Ecozone: First tier of ELC Classification; Name of Ecozone - see Distribution Section of the metadata at:
+https://www.javacoeapp.lrc.gov.on.ca:443/geonetwork?uuid=08d57ccf-ab9c-4006-948c-a458503a057b 
+
+Ecoregion: Second tier of ELC Classification; Ecoregion code 
+Ecorg_name: Name of Ecoregion - see Distribution Section of the metadata at:
+https://www.javacoeapp.lrc.gov.on.ca:443/geonetwork?uuid=1ec3db46-6d91-4e14-a511-625020011258 
+
+
+
+Ecodist: Third tier of ELC Classification; Ecodistrict code
+Edist_name: Name of Ecodistrict - see Distribution Section of the metadata at:
+https://www.javacoeapp.lrc.gov.on.ca:443/geonetwork?uuid=948bfc19-33d9-4006-abe2-64a74786bc2e</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Le ministère des Richesses naturelles et des Forêts définit les unités écologiques selon le socle rocheux, le climat (températures, précipitations), la physiographie (sols, pentes, aspects) et la végétation., Cette classification optimise leur compatibilité aux systèmes de classification nationaux et continentaux. La classification écologique des terres (CET) de l’Ontario est utilisée pour la définition, la planification et la gestion des ressources., Les unités supérieures de la classification écologique des terres (CET) s’appliquent surtout à la planification de l’utilisation des terres à l’échelle provinciale et municipale. Les unités inférieures ou plus étroites sont utilisées surtout pour une application plus détaillée de la gestion des ressources ou pour une application de planification locale ou d’un site., Cet ensemble de données est classifié en trois catégories hiérarchiques : Écozones : Utilisations : rapports nationaux et provinciaux effectués à grande échelle comme des analyses climatiques, des données démographiques et hydrologiques., Écorégions : Utilisations : détermination du niveau d’importance ou de la classe de terres humides et de certaines autres caractéristiques du patrimoine naturel (p. ex. les forêts anciennes), établissement d’objectifs pour les parcs sauvages provinciaux, de rapports sur l’état des forêts, et étude des régimes de perturbations naturelles., Écodistricts : Utilisations : évaluation des niveaux de biodiversité, définition des zones de semences, cartographie des types d’écosystèmes et établissement de cibles pour l’identification des systèmes du patrimoine naturel. https://www.javacoeapp.lrc.gov.on.ca/geonetwork/srv/fr/main.home?uuid=ac174203-e72e-45b9-830a-0b80d39a80e1 (Accéder à la page Classification écologique des terres</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>The ELC of Ontario is used for descriptive, planning, and resource management purposes. The upper levels in its hierarchy are most useful for provincial and regional roll-ups of data and for strategic planning, while the lower (finer-scale) levels of the hierarchy are most useful for detailed resource management prescriptions and other local and site planning applications.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" />
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Peter Uhlig</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>Ministry of Natural Resources</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Provincial Ecologist</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>1 (705) 946 7478</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>1 (705) 946 2030</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:deliveryPoint>
+                  <gmd:city gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:city>
+                  <gmd:administrativeArea gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:administrativeArea>
+                  <gmd:postalCode gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>peter.uhlig@mnr.gov.on.ca</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:contactInstructions gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" />
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileDescription>
+            <gco:CharacterString>Sample Data File Name: ; Sample Data File Descr: ; Sample Data File Type: ;  Sample Data File Size: 0</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>ECOLOGICAL ZONATION</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>ECOREGIONS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>MAPPING</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NATURAL HERITAGE</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>FORESTRY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>FOREST MANAGEMENT</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>PLANNING</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>external</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Open Government Licence – Ontario - You are encouraged to use the Information that is available under this licence with only a few conditions.  Using Information under this licence - 1.  Use of any Information indicates your acceptance of the terms below. 2.	The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information, including for commercial purposes, subject to the terms below. You are free to: 3.	Copy, modify, publish, translate, adapt, distribute or otherwise use the Information in any medium, mode or format for any lawful purpose. You must, where you do any of the above: 4.	Acknowledge the source of the Information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this licence. If the Information Provider does not provide a specific attribution statement, or if you are using Information from several Information Providers and multiple attributions are not practical for your product or application, you must use the following attribution statement: Contains information licensed under the Open Government Licence – Ontario. 5.	The terms of this licence are important, and if you fail to comply with any of them, the rights granted to you under this licence, or any similar licence granted by the Information Provider, will end automatically. Exemptions 6.	This licence does not grant you any right to use: a)	Personal Information; b)	Information or Records not accessible under the Freedom of Information and Protection of Privacy Act (Ontario); c)	third party rights the Information Provider is not authorized to license; d)	the names, crests, logos, or other official symbols of the Information Provider; and e)	Information subject to other intellectual property rights, including patents, trade-marks and official marks. Non-endorsement 7.	This licence does not grant you any right to use the Information in a way that suggests any official status or that the Information Provider endorses you or your use of the Information. No warranty  8.	The Information is licensed “as is”, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law.  9.	The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this licence or the Information, even if specifically advised of the possibility of such loss, injury or damage. Governing Law  10.	This licence is governed by the laws of the Province of Ontario and the applicable laws of Canada. 11.	Legal proceedings related to this licence may only be brought in the courts of Ontario. Definitions  12.	In this licence, the terms below have the following meanings: "Information" means information resources or Records protected by copyright or other information or Records that are offered for use under the terms of this licence. "Information Provider" means Her Majesty the Queen in right of Ontario. “Personal Information” has the meaning set out in section 2(1) of the Freedom of Information and Protection of Privacy Act (Ontario).  “Records” has the meaning of “record” as set out in the Freedom of Information and Protection of Privacy Act (Ontario). "You" means the natural or legal person, or body of persons corporate or incorporate, acquiring rights under this licence. Versioning  13.	This is version 1.0of the Open Government Licence – Ontario. The Information Provider may make changes to the terms of this licence from time to time and issue a new version of the licence. Your use of the Information will be governed by the terms of the licence in force as of the date you accessed the information.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Licence du gouvernement ouvert – Ontario Nous vous encourageons à utiliser l'Information offerte en vertu de la présente licence, sous réserve de quelques conditions. Utilisation de l'Information visée par cette licence 1.	L'utilisation de l'Information indique que vous acceptez les modalités énoncées ci-dessous. 2.	Le Fournisseur d’information vous octroie une licence mondiale, libre de redevances, perpétuelle et non exclusive pour l'utilisation de l'Information, y compris à des fins commerciales, sous réserve des modalités énoncées ci-dessous. Vous êtes libre: 3.	de copier, de modifier, de publier, de traduire, d’adapter, de distribuer ou d’utiliser autrement l'Information, quel que soit le support, mode ou format employé, à toutes fins légitimes. Vous êtes tenu, lorsque vous exercez l'une ou l'autre des activités susmentionnées: 4.	de reconnaître la source de l'Information en ajoutant tout énoncé d'attribution précisé par le ou les fournisseurs d'information et, lorsque possible, de fournir un lien vers cette licence. Si le Fournisseur d'information ne vous fournit pas un énoncé d'attribution précis, ou si vous utilisez de l'Information provenant de plusieurs fournisseurs d'information et que la présence de multiples énoncés ne se prête pas à votre produit ou à votre application, vous devez utiliser l'énoncé d'attribution suivant : Contient de l'information visée par la Licence du gouvernement ouvert – Ontario. 5.	Les modalités de cette licence sont importantes, et si vous ne respectez pas l'une ou l'autre d'entre elles, les droits qui vous sont concédés aux termes de la présente licence ou de toute autre licence semblable octroyée par le Fournisseur d’information vous seront retirés automatiquement. Exemptions 6.	La présente licence ne confère pas le droit d'utiliser : a)	des Renseignements personnels; b)	de l’Information ou des documents qui ne sont pas accessibles en application de la Loi sur l’accès à l’information et la protection de la vie privée (Ontario); c)	des droits de tierces parties que le Fournisseur d'information n'est pas autorisé à accorder; d)	les noms, les emblèmes, les logos ou d'autres symboles officiels du Fournisseur d’information; e)	l'Information qui est assujettie à d'autres droits de propriété intellectuelle, y compris les brevets, les marques de commerce et les marques officielles.Non-approbation 7.	La présente licence ne vous accorde pas le droit d’utiliser l’Information de manière à suggérer un statut officiel ou laisser entendre que le Fournisseur d’information vous appuie ou approuve votre utilisation de l’Information. Absence de garantie 8.	L'Information est offerte sous licence « telle quelle » et le Fournisseur d'information, ni implicitement ni expressément, ne fait aucune déclaration, n'accorde aucune garantie et n'assume aucune obligation ou responsabilité dans la mesure où la loi le lui permet. 9.	Le Fournisseur d'information ne peut être tenu responsable de la présence d'erreurs ou d'omissions dans l'Information et ne se verra en aucun cas imputer la responsabilité de quelque perte, blessure ou dommage direct(e), indirect(e), spécial(e), accessoire, consécutif(ve) ou autre causé(e) par son utilisation ou découlant autrement de la présente licence ou de l’Information, même s’il est avisé de la possibilité d’un tel préjudice. Lois applicables 10.	Cette licence est régie par les lois de la province d’Ontario et les lois applicables du Canada. 11.	Toute procédure judiciaire se rapportant à cette licence ne pourra être portée que devant les tribunaux de l’Ontario. Définitions 12.	Les définitions des termes employés dans la présente licence ont la signification suivante : « Information » S'entend des renseignements [ou des documents] protégés par des droits d'auteur ou des autres renseignements [ou des documents] qui sont offerts pour utilisation aux termes de la présente licence. « Fournisseur d'information » S'entend de Sa Majesté la Reine du chef de l’Ontario. « Renseignements personnels » A le sens défini à l’article 2(1) de la Loi sur l’accès à l’information et la protection de la vie privée (Ontario). « Documents » A le sens « document » défini à l’article 2(1) de la Loi sur l’accès à l’information et la protection de la vie privée (Ontario). « Vous » S'entend d'une personne physique ou morale, ou d'un groupe de personnes constitué en société ou autre, qui acquiert des droits en vertu de la présente licence. Contrôle des versions 13.	Il s'agit de la version 1.0 de la Licence du gouvernement ouvert – Ontario. Le Fournisseur d’information peut apporter des modifications périodiques aux conditions de cette licence et produire une nouvelle version de celle-ci. Votre utilisation de l'Information sera régie par les conditions précisées dans la licence en vigueur à la date où vous avez accédé à l'Information.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="licenseUnrestricted" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:environmentDescription>
+        <gco:CharacterString>ESRI's ArcGIS software (ArcInfo, ArcView, etc); ESRI shapefile</gco:CharacterString>
+      </gmd:environmentDescription>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-95.1569900512695</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-74.3079833984375</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>41.6722984313965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>56.8501167297363</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </naplio:NAPLIO_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Unavailable</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>Unavailable</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact />
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:unitsOfDistribution>
+            <gco:CharacterString>Data</gco:CharacterString>
+          </gmd:unitsOfDistribution>
+          <gmd:transferSize>
+            <gco:Real>32.8</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://www.javacoeapp.lrc.gov.on.ca:443/geonetwork/srv/en/file.disclaimer?id=716&amp;fname=ac174203-e72e-45b9-830a-0b80d39a80e1.zip&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/x-compressed">ac174203-e72e-45b9-830a-0b80d39a80e1.zip</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>ELC of Ontario - Packaged September 2005</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:unitsOfDistribution>
+            <gco:CharacterString>Report</gco:CharacterString>
+          </gmd:unitsOfDistribution>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.ontario.ca/document/ecosystems-ontario-part-1-ecozones-and-ecoregions</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Report</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Report on: The ecosystems of Ontario Part 1: ecozones and ecoregions</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_RelativeInternalPositionalAccuracy>
+          <gmd:measureDescription>
+            <gco:CharacterString>Horizontal: NRVIS drainage scale mapping: 1:10K in south 1:20K in near north 1:50K in north 1:250K in Hudson Bay Lowlands; Vertical: Not Applicable</gco:CharacterString>
+          </gmd:measureDescription>
+        </gmd:DQ_RelativeInternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:source>
+            <gmd:LI_Source>
+              <gmd:description>
+                <gco:CharacterString>NRVIS drainage layer</gco:CharacterString>
+              </gmd:description>
+              <gmd:sourceCitation>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>Drainage</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:alternateTitle gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:alternateTitle>
+                  <gmd:citedResponsibleParty>
+                    <gmd:CI_ResponsibleParty>
+                      <gmd:organisationName>
+                        <gco:CharacterString>Ontario Ministry of Natural Resources and Forestry</gco:CharacterString>
+                      </gmd:organisationName>
+                    </gmd:CI_ResponsibleParty>
+                  </gmd:citedResponsibleParty>
+                  <gmd:presentationForm>
+                    <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" />
+                  </gmd:presentationForm>
+                  <gmd:otherCitationDetails>
+                    <gco:CharacterString>Provincial drainage layer</gco:CharacterString>
+                  </gmd:otherCitationDetails>
+                </gmd:CI_Citation>
+              </gmd:sourceCitation>
+            </gmd:LI_Source>
+            <gmd:LI_Source>
+              <gmd:description>
+                <gco:CharacterString>National Topographic Series (NTS) Mapping</gco:CharacterString>
+              </gmd:description>
+              <gmd:sourceCitation>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>National Topographic Series</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:alternateTitle>
+                    <gco:CharacterString>NTS</gco:CharacterString>
+                  </gmd:alternateTitle>
+                  <gmd:citedResponsibleParty>
+                    <gmd:CI_ResponsibleParty>
+                      <gmd:organisationName>
+                        <gco:CharacterString>MNR and NRCan</gco:CharacterString>
+                      </gmd:organisationName>
+                    </gmd:CI_ResponsibleParty>
+                  </gmd:citedResponsibleParty>
+                  <gmd:presentationForm>
+                    <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" />
+                  </gmd:presentationForm>
+                  <gmd:otherCitationDetails>
+                    <gco:CharacterString>NTS 1:250K mapping for the North, East (Quebec border), and West (Manitoba) boundaries of province.</gco:CharacterString>
+                  </gmd:otherCitationDetails>
+                </gmd:CI_Citation>
+              </gmd:sourceCitation>
+            </gmd:LI_Source>
+          </gmd:source>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:dateStamp>
+    <gco:DateTime>2016-05-27T13:53:36</gco:DateTime>
+  </gmd:dateStamp>
+</gmd:MD_Metadata>
